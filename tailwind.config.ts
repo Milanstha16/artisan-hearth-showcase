@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Custom artisan color palette
+				'warm-sand': 'hsl(var(--warm-sand))',
+				'deep-earth': 'hsl(var(--deep-earth))',
+				'artisan-gold': 'hsl(var(--artisan-gold))',
+				'clay-red': 'hsl(var(--clay-red))',
+				'natural-cream': 'hsl(var(--natural-cream))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +68,19 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			fontFamily: {
+				'display': ['Playfair Display', 'serif'],
+				'body': ['Inter', 'sans-serif'],
+			},
+			backgroundImage: {
+				'gradient-warm': 'var(--gradient-warm)',
+				'gradient-earth': 'var(--gradient-earth)',
+				'gradient-hero': 'var(--gradient-hero)',
+			},
+			boxShadow: {
+				'warm': 'var(--shadow-warm)',
+				'gentle': 'var(--shadow-gentle)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
